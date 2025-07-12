@@ -26,3 +26,10 @@ inputs.addEventListener('keydown', (event) => {
     }
   });
 
+// window.addEventListener("DOMContentLoaded", () => {
+// 	document.getElementById("code-1").focus();
+// });
+
+window.onload = () => {
+	document.getElementById("code-1").focus();
+}
