@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+}
+
+input {
+	display:inline-block;
+	width:80px;
+	height:80px;
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+p {
+	text-align:center;
+}
+
+#code-container {
+	display:flex;
+	justify-content:space-between
+}
+
+#code {
+	font-size:20px;
+	padding:10px;
+}
