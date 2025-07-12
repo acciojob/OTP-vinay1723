@@ -18,12 +18,12 @@ p {
 	text-align:center;
 }
 
-#code-container {
+.code-container {
 	display:flex;
 	justify-content:space-between
 }
 
-#code {
+.code {
 	font-size:20px;
 	padding:10px;
 }

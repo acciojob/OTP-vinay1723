@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const inputs = document.getElementById('code-container');
+const inputs = document.querySelector('.code-container');
 inputs.addEventListener('input',(e) => {
 	e.preventDefault();
 	let input = e.target;
